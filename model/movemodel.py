@@ -56,6 +56,8 @@ elif "CONFIG_SR_WN_WN8_HIESP" in WN_STRING and "CONFIG_SR_WN_MODEL_WN8_QUANT8" i
     wakenet_model = 'hiesp8q8'
 elif "CONFIG_SR_WN_WN8_HIESP" in WN_STRING and "CONFIG_SR_WN_MODEL_WN8_QUANT" in WN_STRING:
     wakenet_model = 'hiesp8'
+elif "CONFIG_SR_WN_WN8_HIJESON" in WN_STRING and "CONFIG_SR_WN_MODEL_WN8_QUANT" in WN_STRING:
+    wakenet_model = 'hijeson8'
 else:
     print('choose no wakenet mode')
 

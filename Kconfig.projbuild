@@ -139,6 +139,10 @@ choice SR_WN_WAKE_WORD_SEL
         bool "Hi,ESP (WakeNet8)"
         depends on SR_WN_MODEL_WN8_QUANT || SR_WN_MODEL_WN8_QUANT8
 
+    config SR_WN_WN8_HIJESON
+        bool "Hi,Jeson (WakeNet8)"
+        depends on SR_WN_MODEL_WN8_QUANT 
+
 endchoice
 
 config USE_MULTINET
